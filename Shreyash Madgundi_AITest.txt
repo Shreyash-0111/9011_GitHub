@@ -1,0 +1,42 @@
+Shreyash Madgundi
+Batch 9011 7pm 
+date: 8/10/26
+
+Answers
+Section A
+1.                                                               
+2.Google
+3.Anthropic
+4.XAi
+5.
+6.OpenAi
+7.
+8.Google
+9.Image Generation
+10.
+
+Section B
+11. Large Language Model
+12. AI that generates fresh content every time we hit the prompt, which has knowledge and content
+13.prompt is the set of ruls , instructions , guidelines of task
+14.
+15.Ai with different models or versions which perform different tasks
+16.
+17.smallest unit breakdown of question user fires
+18. Ai keeps the its own context window which is related to the query
+19.
+20. Making Ai better with reducing error and working iteratively on the task
+
+Section C
+21. The ai program /entity which works in the environment to solve problem
+22. Chatbot gives the user query response with the information it is known,
+    An AI agent works with available data in the environment and perform  actions
+23.
+24.
+25.
+26. API has its own rate limit according to the token fires.
+27. Cursor is the AI IDE, tool for development
+28.
+29.
+30.
+ 
