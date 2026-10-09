@@ -4,8 +4,9 @@
     <title>Employee Form</title>
 </head>
 <body>
+    
     <h1>Employee Form</h1>
-    <form>
+    <form onsubmit="return validateForm()">
         <label for="id">ID:</label>
         <input type="number" id="id" name="id"><br><br>
 
@@ -22,5 +23,42 @@
             Add Employee
         </button>
     </form>
+
+    <table id="employeeTable" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
 </body>
+<script>
+    function validateForm() {
+            
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var role = document.getElementById("role").value;
+            var salary = document.getElementById("salary").value;
+            
+
+            if (id == "" || name == "" || role == "" || salary == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+        }
+
+        function displayEmployee() {
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var role = document.getElementById("role").value;
+            var salary = document.getElementById("salary").value;
+            console.log("Employee Details: ID=" + id + ", Name=" + name + ", Role=" + role + ", Salary=" + salary);
+            console.out("Employee Details: ID=" + id + ", Name=" + name + ", Role=" + role + ", Salary=" + salary);
+        }
+</script>
+
 </html>
